@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-instantidutils"
+description = "Nodes:Multi-ControlNet Converter, List of Images, Convert PIL to Tensor (NHWC), Convert Tensor (NHWC) to (NCHW), Convert Tensor (NHWC) to PIL"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers"]
+
+[project.urls]
+Repository = "https://github.com/BXYMartin/ComfyUI-InstantIDUtils"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-InstantIDUtils"
+Icon = ""
